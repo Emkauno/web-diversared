@@ -48,7 +48,7 @@ const StepperContainer = styled.div`
   margin: 4rem 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
 
   @media (max-width: 768px) {
