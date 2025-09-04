@@ -6,6 +6,7 @@ import Gallery from '@/components/sections/Gallery';
 import Quote from '@/components/sections/Quote';
 import Connection from '@/components/sections/Connection';
 import { Testimonials } from '@/components/ui/testimonials';
+import Instagram from '@/components/sections/Instagram';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <Intro />
+      {/* <Instagram /> */}
       <ImageText />
       <Connection />
       <Gallery />
