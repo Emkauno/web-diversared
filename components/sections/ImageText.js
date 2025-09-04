@@ -15,7 +15,7 @@ const Section = styled.section`
     padding: 3rem 1.5rem;
   }
 `;
-const SectionImage = styled.section`
+const SectionImage = styled(motion.section)`
   display: flex;
   gap: 4rem;
   align-items: center;
@@ -73,12 +73,12 @@ export default function ImageText() {
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6, ease: 'easeOut' }}
 				viewport={{ once: true }}>Nuestra comunidad</Title>
-    <SectionImage>
-      <Img src="/grouphands.jpg" alt="Nuestra comunidad" />
-      <Text initial={{ opacity: 0, y: 50 }}
+    <SectionImage initial={{ opacity: 0, y: 50 }}
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6, ease: 'easeOut' }}
 				viewport={{ once: true }}>
+      <Img src="/grouphands.jpg" alt="Nuestra comunidad" />
+      <Text >
         Trabajamos con personas en situación de discapacidad psicosocial, cognitiva y neurodivergentes, sus familias, instituciones educativas y comunidades locales.
       </Text>
     </SectionImage>

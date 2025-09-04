@@ -9,11 +9,10 @@ const Section = styled(motion.section)`
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 0 2rem;
+  padding: 120px 2rem;
   gap: 2rem;
   max-width: 1400px;
   margin: 0 auto;
-  padding-top: 120px;
   @media (max-width: 768px) {
     align-items: flex-start;
     height: 75vh;
@@ -145,7 +144,10 @@ export default function Hero() {
           Conformamos un equipo con historia, formación y un compromiso inquebrantable: hacer que la salud mental sea accesible, digna y colectiva.
         </Subtitle>
       </ContentHalf>
-      <ContentHalf className='image-container'>
+      <ContentHalf className='image-container' initial={{ opacity: 0, y: 50 }}
+				whileInView={{ opacity: 1, y: 0 }}
+				transition={{ duration: 0.6, ease: 'easeOut' }}
+				viewport={{ once: true }}>
         <Image src="/equipo.png" fill alt="Equipo DiversaRed"/>
       </ContentHalf>
     </Section>

@@ -27,7 +27,7 @@ const Container = styled.div`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  gap: 2rem;
+  gap: 3rem;
   position: relative;
 
   @media (min-width: 768px) {
