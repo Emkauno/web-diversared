@@ -81,9 +81,10 @@ const Designation = styled.p`
 
 const Quote = styled(motion.p)`
   margin-top: 2rem;
-  font-size: 1.125rem;
+  font-size: 1rem;
   color: #6b7280;
-
+  line-height: 1.45;
+  font-style: italic;
   .dark & {
     color: #d4d4d4;
   }

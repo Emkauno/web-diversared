@@ -20,7 +20,9 @@ const Section = styled.section`
 
   @media (max-width: 480px) {
     max-width: unset;
-    text-align: left;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
     padding-bottom: 6rem;
   }
 `;
@@ -40,7 +42,7 @@ const Title = styled(motion.h2)`
 
   @media (max-width: 480px) {
     font-size: 2rem;
-    text-align: left;
+    text-align: center;
   }
 `;
 
@@ -54,6 +56,7 @@ const StepperContainer = styled.div`
   @media (max-width: 768px) {
     flex-direction: column;
     gap: 2rem;
+    align-items: center;
   }
 `;
 
@@ -107,6 +110,9 @@ const StepLabel = styled.div`
   font-size: 1rem;
   text-align: center;
   max-width: 120px;
+  @media(max-width: 500px){
+    max-width: 180px;
+  }
 `;
 
 const CtaContainer = styled(motion.div)`
@@ -153,18 +159,26 @@ export default function QuoteServices() {
       <StepperContainer>
         <Step>
           <StepCircle>1</StepCircle>
-          <StepLabel>Primera conversación gratuita</StepLabel>
+          <StepLabel>Primera entrevista</StepLabel>
         </Step>
         <Step>
           <StepCircle>2</StepCircle>
-          <StepLabel>Evaluación integral</StepLabel>
+          <StepLabel>Levantamiento de las necesidades de apoyo</StepLabel>
         </Step>
         <Step>
           <StepCircle>3</StepCircle>
-          <StepLabel>Propuesta personalizada</StepLabel>
+          <StepLabel>Acuerdo de los servicios a entregar</StepLabel>
         </Step>
         <Step>
           <StepCircle>4</StepCircle>
+          <StepLabel>Evaluación integral</StepLabel>
+        </Step>
+        <Step>
+          <StepCircle>5</StepCircle>
+          <StepLabel>Propuesta personalizada</StepLabel>
+        </Step>
+        <Step>
+          <StepCircle>6</StepCircle>
           <StepLabel>Acompañamiento continuo</StepLabel>
         </Step>
       </StepperContainer>
@@ -172,7 +186,7 @@ export default function QuoteServices() {
       <p>
         En DiversaRed estamos aquí para escucharte. Escríbenos y juntos
         encontraremos la mejor forma de acompañarte a ti, tu familia o tu
-        comunidad hacia una vida más plena, digna y conectada.
+        comunidad.
       </p>
 
       <CtaContainer

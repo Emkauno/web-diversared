@@ -79,7 +79,7 @@ export default function ImageText() {
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6, ease: 'easeOut' }}
 				viewport={{ once: true }}>
-        Trabajamos con personas en situación de discapacidad psicosocial, cognitiva y del desarrollo, sus familias, instituciones educativas y comunidades locales.
+        Trabajamos con personas en situación de discapacidad psicosocial, cognitiva y neurodivergentes, sus familias, instituciones educativas y comunidades locales.
       </Text>
     </SectionImage>
     </Section>

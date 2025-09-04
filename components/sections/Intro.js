@@ -50,7 +50,7 @@ export default function Intro() {
 				whileInView={{ opacity: 1, y: 0 }}
 				transition={{ duration: 0.6, ease: 'easeOut' }}
 				viewport={{ once: true }}>¿Quiénes Somos?</Title>
-      <span>DiversaRed nace del encuentro entre profesionales con una visión común:</span><br/> acompañar con dignidad a quienes enfrentan barreras psicosociales. Llevamos más de 20 años fortaleciendo redes humanas con foco en la autonomía y la participación.
+      <span>DiversaRed nace del encuentro entre profesionales con una visión común:</span><br/> Acompañar con dignidad a quienes enfrentan barreras psicosociales, fortaleciendo redes humanas con foco en la autodeterminación y la participación.
     </Section>
   );
 }

@@ -15,7 +15,7 @@ const Section = styled.section`
     padding: 3rem 1.5rem;
   }
 `;
-const SectionImage = styled.section`
+const SectionImage = styled(motion.section)`
   display: flex;
   gap: 4rem;
   align-items: center;
@@ -34,6 +34,7 @@ const Img = styled.img`
   object-fit: cover;
   width: 100%;
   max-height: 400px;
+  align-self: flex-start;
 `;
 
 const Text = styled(motion.div)`
@@ -80,17 +81,22 @@ export default function Services() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}>¿No sabes por dónde empezar?</Title>
-    <SectionImage>
-      <Img src="/apoyo.jpg" alt="Evaluación integral" />
+    <SectionImage initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}>
+      <Img src="/jigsaw.jpg" alt="Evaluación integral" />
       <Text initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}>
-        Te ayudamos a identificar recursos, resolver dudas y conectarte con apoyos adecuados.<br/> Incluye:
+        ¡Contáctanos!<br/> Queremos conocerte y saber tus necesidades para poder identificar en conjunto, cuál o cuáles son los servicios más adecuados para tu situación personal.<br/> <br/>
+        <strong>Nuestro proceso inicial incluye:</strong>
         <ul>
-          <li>Evaluación integral</li>
-          <li>Plan de acompañamiento</li>
-          <li>Charlas informativas</li>
+          <li>Evaluación de apoyo con Terapia Ocupacional</li>
+          <li>Plan de acompañamiento según necesidad: Terapia Ocupacional, Psicología, Trabajo Social y Gestores de Apoyo</li>
+          <li>Charlas educativas</li>
+          <li>Redes locales de apoyo</li>
         </ul>
       </Text>
     </SectionImage>
@@ -100,12 +106,15 @@ export default function Services() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}>Presencia activa para una vida <span className="lightblue">autónoma</span></Title>
-    <SectionImage>
+    <SectionImage initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}>
       <Text initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}>
-        Nuestros gestores acompañan de forma continua a personas y familias en contextos cotidianos.<br/> Tipos de apoyo:
+        Nuestros gestores se incorporan en tu cotidianidad, acompañándote en diversos contextos, desde el respeto mutuo y valoración de la autonomía.<br/> <br/> <strong>Tipos de apoyo:</strong>
         <ul>
           <li>Vida diaria</li>
           <li>Educación</li>
@@ -120,7 +129,10 @@ export default function Services() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}>Capacitación</Title>
-    <SectionImage>
+    <SectionImage initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}>
       <Img src="/orienta.png" alt="Capacitación" />
       <Text initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -140,7 +152,10 @@ export default function Services() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}>Redes locales <span className="green">que cuidan</span></Title>
-    <SectionImage>
+    <SectionImage initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}>
       <Text initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}

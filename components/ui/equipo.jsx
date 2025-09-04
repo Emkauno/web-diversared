@@ -4,31 +4,38 @@ export function EquipoCarousel() {
   const testimonials = [
     {
       quote:
-        "Estudió en la Universidad de Playa Ancha, es Diplomada en Rehabilitación Psicosocial Comunitaria de la Universidad Mayor y en Gestión y Dirección de Organizaciones sin Fines de Lucro de la Fundación Simón de Cirene.",
+        "Terapeuta Ocupacional de la Universidad de Playa Ancha (UPLA), acompaño terapéuticamente a personas en tiempos de crisis del ciclo vital como también de salud mental, favoreciendo la recuperación del proyecto de vida. Son esenciales para mi trabajo, considerar la biografía y narrativa personal, identificar habilidades y talentos, las relaciones familiares, sociales y contextos de desempeño. Mi experiencia se ha basado en brindar apoyos a adolescentes y adultos con necesidades psicosociales, cognitivas y neurodivergentes",
       name: "SOLANGE VALLEJOS FUENTES",
-      designation: "Gestión de Servicios de Apoyo y Capacitación, Terapeuta ocupacional",
+      designation: "Gestión de Servicios de Apoyo y Capacitación",
       src: "/solange.jpg",
     },
     {
       quote:
-        "Estudió en la Universidad de Chile, es Diplomada en Rehabilitación Psicosocial Comunitaria de la Universidad Mayor.",
+        "Terapeuta Ocupacional de la Universidad de Chile (UdeChile) desde hace más de 20 años. Mi experiencia profesional ha sido el acompañamiento de adolescentes, adultos y personas mayores con necesidades psicosociales, cognitivas y neurodivergentes tanto en instituciones sin fines de lucro como en servicios dependientes del Estado.",
       name: "XIMENA VARGAS ALLENDES",
-      designation: "Gestión de Servicios de Apoyo y Capacitación, Terapeuta ocupacional",
+      designation: "Gestión de Servicios de Apoyo y Capacitación",
       src: "/ximena.jpg",
     },
     {
       quote:
-        "Estudió en la Universidad Tecnológica Metropolitana, es Magister en Historia y Políticas Sociales de la Universidad Alberto Hurtado, además de Diplomado en Técnicas de Intervención con Familias de la misma Casa de Estudios y en Gestión de Recursos Humanos del Instituto Profesional Santo Tomás.",
+        "Trabajador Social de la Universidad Tecnológica Metropolitana (UTEM). Acompaño a familias con integrantes con necesidades psicosociales, cognitivas y neurodivergentes. Me intereso en contextualizar el proceso histórico en que desarrollan su ciclo vital. Todo mi acompañamiento lo basa en el respeto a todo evento de la dignidad del ser humano por sobre toda creencia e interés personal, valorando la importancia de la familia y el vínculo con su entorno.",
       name: "CLAUDIO SOTO CASTRO",
-      designation: "Gestión General, Trabajador social",
+      designation: "Gestión General",
       src: "/claudio.jpg",
     },
     {
       quote:
-        "Estudió en la Universidad Andrés Bello y actualmente es candidata a Magister en Terapia Ocupacional de la misma Casa de Estudios.",
+        "Soy un profesional de la salud con experiencia en acompañamiento a personas adolescentes y adultas que presentan desafíos psicosociales, fomentando su participación e inclusión en diversos contextos. Me mantengo atento a las demandas de nuevas necesidades como el universo de personas neurodiversas, lo que me ha llevado a profundizar en sus situaciones y teorías que aportan a una vida con mayor participación e inclusión.",
+      name: "IGNACIO GRABOWSKI PINTO",
+      designation: "Terapeuta ocupacional",
+      src: "/ignacio.jpg",
+    },
+    {
+      quote:
+        "Terapeuta Ocupacional titulada en la Universidad Andrés Bello y Terapeuta Ayurvédica, con experiencia en el acompañamiento terapéutico de personas que transitan desafíos en su salud mental y condiciones neurodivergentes, tanto en la adolescencia como en la vida adulta. Mi enfoque se fundamenta en una mirada humanista, integrativa y neuroafirmativa, orientada a generar espacios seguros y empáticos donde cada persona pueda reconectar con su potencial, cultivar prácticas sostenibles de autocuidado y construir una vida con propósito y bienestar. A través de intervenciones personalizadas, promuevo la autonomía, la participación significativa y el desarrollo integral.",
       name: "MARIANELA CERDA ALARCÓN",
       designation: "Coordinación de Servicios de Apoyo, Terapeuta ocupacional",
-      src: "/person1.avif",
+      src: "/marianela.jpg",
     },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;

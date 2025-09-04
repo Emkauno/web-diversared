@@ -33,9 +33,7 @@ const ContentHalf = styled(motion.div)`
   height: 100%;
   border-radius: 24px;
   img {
-    object-fit: cover;
-  border-radius: 24px;
-
+    object-fit: contain;
   }
   @media (max-width: 768px) {
     width: 100%;
@@ -150,7 +148,10 @@ export default function Hero() {
           </CallToAction>
         </CtaContainer>
       </ContentHalf>
-      <ContentHalf>
+      <ContentHalf initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: 'easeOut', delay: .4}}
+          viewport={{ once: true }}>
         <Image src="/servicios.png" fill alt="Servicios DiversaRed"/>
       </ContentHalf>
     </Section>
