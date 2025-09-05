@@ -18,11 +18,15 @@ const HeaderWrapper = styled.header`
   left: 0;
   background: rgba(255,255,255,.8);
   backdrop-filter: blur(20px);
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
 `;
 
 const Logo = styled.img`
-  width: 90px;
-  height: auto;
+  height: 45px;
 `;
 
 const Nav = styled.nav`
