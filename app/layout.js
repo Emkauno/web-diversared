@@ -64,9 +64,8 @@ export default function RootLayout({ children }) {
     <html lang="en" className={inter.variable}>
       <body>
         <BackgroundOrbits
-          blobCount={15}
-          opacity={0.1}
-          blur={8}
+          blobCount={12}
+          opacity={0.35}
           speed={0.02}
          />
         <Header />
