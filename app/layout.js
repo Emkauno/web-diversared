@@ -64,10 +64,10 @@ export default function RootLayout({ children }) {
     <html lang="en" className={inter.variable}>
       <body>
         <BackgroundOrbits
-          blobCount={12}
-          opacity={0.35}
-          speed={0.02}
-         />
+          blobCount={16}       // more particles on desktop baseline
+          opacity={0.2}       // base; desktopBoost lifts to ~0.41
+          speed={0.018}
+        />
         <Header />
         <GlobalStyles />
         {children}
