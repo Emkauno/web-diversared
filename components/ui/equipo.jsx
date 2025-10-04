@@ -21,7 +21,7 @@ export function EquipoCarousel() {
         "Trabajador Social de la Universidad Tecnológica Metropolitana (UTEM) y Gerontólogo Psicosocial. Acompaño a familias y personas mayores con necesidades psicosociales, cognitivas y neurodivergentes. Me intereso en contextualizar el proceso histórico en que desarrollan su ciclo vital. Todo mi acompañamiento se basa en el respeto a todo evento de la dignidad del ser humano por sobre toda creencia e interés personal, valorando la importancia de la familia y el vínculo con su entorno.",
       name: "CLAUDIO SOTO CASTRO",
       designation: "Gestión General",
-      src: "/claudio.jpg",
+      src: "/claudio.jpeg",
     },
     {
       quote:

@@ -5,7 +5,6 @@ import Link from "next/link";
 
 const FooterWrapper = styled.footer`
   padding: 2rem 1.5rem;
-  background-color: #f3f4f6;
   color: #4b5563;
   font-size: 0.9rem;
   display: flex;

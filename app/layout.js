@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import { Header } from '@/components/sections/Header';
 import Footer from '@/components/sections/Footer';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
+import BackgroundOrbits from '@/components/background/BackgroundOrbits';
 
 export const metadata = {
   title: "DiversaRed – Bienestar mental, comunidad y autonomía",
@@ -62,6 +63,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={inter.variable}>
       <body>
+        <BackgroundOrbits
+          blobCount={15}
+          opacity={0.1}
+          blur={8}
+          speed={0.02}
+         />
         <Header />
         <GlobalStyles />
         {children}

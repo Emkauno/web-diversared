@@ -27,7 +27,7 @@ const Container = styled.div`
 const Grid = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3rem;
+  gap: 100px;
   position: relative;
 
   @media (min-width: 768px) {
@@ -38,7 +38,10 @@ const Grid = styled.div`
 const ImageWrapper = styled.div`
   position: relative;
   width: 100%;
-  height: 20rem;
+  height: 600px;
+  @media(max-width: 768px) {
+    height: 450px;
+  }
 `;
 
 const StyledImage = styled.img`

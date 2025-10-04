@@ -9,7 +9,6 @@ const GlobalStyles = () => (
         margin: 0;
         padding: 0;
         font-family: var(--font-inter), sans-serif;
-        background-color: #fff;
         color: #000;
         overflow-x: hidden;
       }

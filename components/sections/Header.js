@@ -107,7 +107,6 @@ const MobileMenuWrapper = styled(motion.div)`
   position: fixed;
   inset: 0;
   z-index: 55;
-  background: white;
   color: black;
   display: flex;
   flex-direction: column;
