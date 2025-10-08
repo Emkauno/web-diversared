@@ -27,14 +27,14 @@ export function EquipoCarousel() {
       quote:
         "Soy un profesional de la salud con experiencia en acompañamiento a personas adolescentes y adultas que presentan desafíos psicosociales, fomentando su participación e inclusión en diversos contextos. Me mantengo atento a las demandas de nuevas necesidades como el universo de personas neurodiversas, lo que me ha llevado a profundizar en sus situaciones y teorías que aportan a una vida con mayor participación e inclusión.",
       name: "IGNACIO GRABOWSKI PINTO",
-      designation: "Terapeuta ocupacional",
+      designation: "Terapeuta Ocupacional",
       src: "/ignacio.jpg",
     },
     {
       quote:
         "Terapeuta Ocupacional titulada en la Universidad Andrés Bello y Terapeuta Ayurvédica, con experiencia en el acompañamiento terapéutico de personas que transitan desafíos en su salud mental y condiciones neurodivergentes, tanto en la adolescencia como en la vida adulta. Mi enfoque se fundamenta en una mirada humanista, integrativa y neuroafirmativa, orientada a generar espacios seguros y empáticos donde cada persona pueda reconectar con su potencial, cultivar prácticas sostenibles de autocuidado y construir una vida con propósito y bienestar. A través de intervenciones personalizadas, promuevo la autonomía, la participación significativa y el desarrollo integral.",
       name: "MARIANELA CERDA ALARCÓN",
-      designation: "Coordinación de Servicios de Apoyo, Terapeuta ocupacional",
+      designation: "Coordinación de Servicios de Apoyo, Terapeuta Ocupacional",
       src: "/marianela.jpg",
     },
   ];

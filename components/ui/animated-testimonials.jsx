@@ -74,9 +74,10 @@ const Name = styled.h3`
 `;
 
 const Designation = styled.p`
-  font-size: 0.875rem;
-  color: #6b7280;
-
+  font-size: 1rem;
+  color: #464a52;
+  font-weight: bold;
+  line-height: 1.4;
   .dark & {
     color: #737373;
   }
