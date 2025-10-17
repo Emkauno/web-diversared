@@ -37,6 +37,27 @@ export function EquipoCarousel() {
       designation: "Coordinación de Servicios de Apoyo, Terapeuta Ocupacional",
       src: "/marianela.jpg",
     },
+    {
+      quote:
+        "Acompaño a adultos y personas mayores que presentan necesidades psicosociales. Promuevo junto con ellos todo tipo de actividades domésticas y de la vida diaria que estimulen y/o mantengan su independencia con el objetivo de mejorar su calidad de vida en la cotidianidad.",
+      name: "LEYDY VALLECILLA PEÑA",
+      designation: "Gestora de Apoyos para la Autonomía",
+      src: "/leidy.jpeg",
+    },
+    {
+      quote:
+        "Soy un profesional del área de la salud con experiencia en el acompañamiento de personas adolescentes y adultas que presentan desafíos psicosociales, fomentando su participación e inclusión en diferentes contextos. Mantengo mi experiencia y conocimiento al margen de las necesidades de la población neurodiversa,lo que me ha permitido profundizar en sus situaciones, realizar trabajos en beneficio de la participación e inclusión, y aportar a la calidad de vida de estas personas.",
+      name: "SEBASTIÁN CORTEZ VÁSQUEZ",
+      designation: "Terapeuta Ocupacional, Gestor de Apoyos para la Autonomía",
+      src: "/sebastian.jpeg",
+    },
+    {
+      quote:
+        "Acompaño a personas adolescentes y adultas neuro diversas, promoviendo su bienestar físico, emocional y social. Mi trabajo se orienta a favorecer procesos de inclusión y bienestar, desde una mirada que articula la salud mental, la participación social y la construcción de entornos accesibles y respetuosos de la diferencia, a través del desarrollo conjunto de un plan de vida que refleje los intereses, metas y valores de cada persona.",
+      name: "BENJAMÍN TORO OTÁROLA",
+      designation: "Terapeuta Ocupacional, Gestor de Apoyos para la Autonomía",
+      src: "/benjamin.jpg",
+    },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;
 }
