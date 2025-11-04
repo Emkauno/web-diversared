@@ -51,13 +51,6 @@ export function EquipoCarousel() {
       designation: "Terapeuta Ocupacional, Gestor de Apoyos para la Autonomía",
       src: "/sebastian.jpeg",
     },
-    {
-      quote:
-        "Acompaño a personas adolescentes y adultas neuro diversas, promoviendo su bienestar físico, emocional y social. Mi trabajo se orienta a favorecer procesos de inclusión y bienestar, desde una mirada que articula la salud mental, la participación social y la construcción de entornos accesibles y respetuosos de la diferencia, a través del desarrollo conjunto de un plan de vida que refleje los intereses, metas y valores de cada persona.",
-      name: "BENJAMÍN TORO OTÁROLA",
-      designation: "Terapeuta Ocupacional, Gestor de Apoyos para la Autonomía",
-      src: "/benjamin.jpg",
-    },
   ];
   return <AnimatedTestimonials testimonials={testimonials} />;
 }
