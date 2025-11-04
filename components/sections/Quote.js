@@ -90,7 +90,7 @@ export default function Quote() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut', delay: .4 }}
         viewport={{ once: true }}>
-        <CallToAction href="#">
+        <CallToAction href="https://wa.me/56942006905?text=Hola%20Diversared!,%20quisiera%20conocer%20m%C3%A1s%20sobre%20sus%20servicios">
           Agenda una conversación gratuita
         </CallToAction>
       </CtaContainer>
