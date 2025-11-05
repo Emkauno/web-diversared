@@ -44,7 +44,7 @@ const Card = styled(motion.div)`
   align-items: center;
   padding: 20px;
   gap: 1rem;
-
+  cursor: default;
   &:hover {
     cursor: pointer;
   }

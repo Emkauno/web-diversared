@@ -148,6 +148,7 @@ const CallToAction = styled(Link)`
   @media (max-width: 768px) {
     width: 100%;
     font-size: 14px;
+    text-align: center;
   }
 `;
 
