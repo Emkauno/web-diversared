@@ -44,10 +44,6 @@ const Card = styled(motion.div)`
   align-items: center;
   padding: 20px;
   gap: 1rem;
-  cursor: default;
-  &:hover {
-    cursor: pointer;
-  }
   &.green {
     background-image:
     linear-gradient(to top, rgba(255, 255, 255, 0.7) 30%, rgba(155, 203, 64, 1)),

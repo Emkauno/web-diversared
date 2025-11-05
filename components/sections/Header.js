@@ -219,11 +219,11 @@ export const Header = () => {
         <Hamburger onClick={() => setOpen(!open)}>
           <div className={open ? 'ham active': 'ham'}>
   <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 200 200">
-        <g stroke-width="6.5" stroke-linecap="round">
+        <g strokeWidth="6.5" strokeLinecap="round">
           <path
             d="M72 82.286h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#000"
           />
           <path
@@ -234,7 +234,7 @@ export const Header = () => {
           <path
             d="M72 125.143h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#000"
           />
           <path
@@ -245,13 +245,13 @@ export const Header = () => {
           <path
             d="M100.75 82.286h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#000"
           />
           <path
             d="M100.75 125.143h28.75"
             fill="#009100"
-            fill-rule="evenodd"
+            fillRule="evenodd"
             stroke="#000"
           />
         </g>
